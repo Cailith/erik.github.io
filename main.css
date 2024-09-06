@@ -1,44 +1,29 @@
 /* Mobil */
+
+
 body {
-
-}
-
-@media only screen and (min-width: 640px) {
-  .accordion {
-    display: none;
-  }
-}
-
-.hero {
-
-}
-
-.hero-content {
-
-}
-
-.hero h1 {
-
-}
-
-.hero p {
-
-}
-
-.hero .btn {
-
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Tablet */
 @media only screen and (min-width: 640px) {
   body {
+    font-size: 18px;
 
+  }
+  footer {
+    background-color: rgb(219, 219, 219);
   }
 }
 
 /* Dator */
 @media only screen and (min-width: 1024px) {
   body {
-
-  }
+    font-size: 20px;
+ }
+ footer {
+    background-color: rgb(219, 219, 219);
+ }
 }
