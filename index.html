@@ -23,24 +23,24 @@
 
   <body>
     <header>
-      <img src="https://placehold.co/600x150" alt="Freaky Fashion logotyp" />
+       <img class="logotype" src="https://placehold.co/300x100" alt="Freaky Fashion logotype" />
 
-      <div id="product-finding" class="product-finding">
-        
-        <input type="search" style="width: 300px" />
+      <nav class="product-finding-nav">
+          <input class="searchbar" type="text" name="searchbar" placeholder="Sök produkt"/>
 
-        <a href="index.html"> <!--TODO: Add correct href -->
-          <img src="Images/heart-solid-24.png" alt="Favorites" />
-        </a>
+        <div class="favorites-shoppingCart">
+          <a href="index.html"> <!--TODO: Add correct href -->
+            <img src="Images/heart-solid-24.png" alt="Favorites" />
+          </a>
 
-        <a href="index.html"> <!--TODO: Add correct href -->
-          <img src="Images/cart-solid-24.png" alt="Shopping Cart" />
-        </a>
-      </div>
-    </header>
+          <a href="index.html"> <!--TODO: Add correct href -->
+            <img src="Images/cart-solid-24.png" alt="Shopping Cart" />
+          </a>
+        </div>
+      </nav>
 
-    <nav>
-      <ul class="top-nav">
+    <nav class="top-nav">
+      <ul>
           <li><a href="index.html">Nyheter</a></li> <!--TODO: Add correct href -->
 
           <li><a href="index.html">Topplistan</a></li> <!--TODO: Add correct href -->
@@ -51,25 +51,17 @@
 
       </ul>
     </nav>
+  </header>
 
-    <div id="hero"; class="hero-card">
-        <a href="product-details.html"> <!--TODO: Full href should be http://localhost:5000/product-details.html -->
-          <img src="https://placehold.co/250x350" alt="Svart T-shirt" width="250px">
-        </a>
-
-          <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aperiam ex magnam soluta laudantium adipisci a quidem cum dolore. Magnam.</p>
-      </div> 
-      
-    <div id="products"; class="card">
-        <a href="product-details.html"> <!--TODO: Full href should be http://localhost:5000/product-details.html -->
-          <img src="https://placehold.co/250x350" alt="Svart T-shirt" width="250px">
-        </a>
-
-          <h2>Svart T-shirt</h2>
-          <p class="price">199 SEK</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptates magnam, sequi consequuntur numquam impedit deserunt ea? Quam, ad maxime?</p>
-      </div> 
+    <section class="hero">
+      <!-- TODO: Add hero card-->
+    </section>
+    <section class="spots">
+      <!--  TODO: Add spots section for >=1024px-->
+    </section>
+    <section class="product-cards">
+      <!--  TODO: Add product card grid-->
+    </section>
 
     <footer>
       <p>&copy; Freaky Fashion</p>

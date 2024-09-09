@@ -22,37 +22,44 @@
 
   <body>
     <header>
+      <div class="logotyp">
       <img src="https://placehold.co/600x150" alt="Freaky Fashion logotyp" />
-
-      <div id="product-finding"; class="product-finding">
-        <input type="search" style="width: 300px" />
-
-        <a href="index.html"> <!--TODO: Add correct href -->
-          <img src="Images/heart-solid-24.png" alt="Favorites" />
-        </a>
-
-        <a href="index.html"> <!--TODO: Add correct href -->
-          <img src="Images/cart-solid-24.png" alt="Shopping Cart" />
-        </a>
       </div>
-    </header>
 
-    <nav>
+      <nav class="product-finding-nav">
+        <div class="searchbar">
+          <input type="search"/>
+        </div>
+
+        <div class="favorites-shoppingCart">
+          <a href="index.html"> <!--TODO: Add correct href -->
+            <img src="Images/heart-solid-24.png" alt="Favorites" />
+          </a>
+
+          <a href="index.html"> <!--TODO: Add correct href -->
+            <img src="Images/cart-solid-24.png" alt="Shopping Cart" />
+          </a>
+        </div>
+      </nav>
+
+    <nav class="top-nav">
       <ul>
-        <li><a href="index.html">Nyheter</a></li> <!--TODO: Add correct href -->
+          <li><a href="index.html">Nyheter</a></li> <!--TODO: Add correct href -->
 
-        <li><a href="index.html">Topplistan</a></li> <!--TODO: Add correct href -->
+          <li><a href="index.html">Topplistan</a></li> <!--TODO: Add correct href -->
 
-        <li><a href="index.html">Rea</a></li> <!--TODO: Add correct href -->
+          <li><a href="index.html">Rea</a></li> <!--TODO: Add correct href -->
 
-        <li><a href="index.html">Kampanjer</a></li> <!--TODO: Add correct href -->
-    </ul>
+          <li><a href="index.html">Kampanjer</a></li> <!--TODO: Add correct href -->
+
+      </ul>
     </nav>
+  </header>
 
-    <div id="product-details"; class="product-details">
-    </div>
-    <div id="similar-products"; class="similar-products">
-    </div>
+    <section class="product-details">
+    </section>
+    <section class="similar-products">
+    </section>
 
     <footer>
       <p>&copy; Freaky Fashion</p>
